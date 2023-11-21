@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@color/green"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Username"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/white"
+        android:background="@drawable/gradient"/>
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Email"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="4dp"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/white"
+        android:background="@drawable/gradient"/>
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Password"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="4dp"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/white"
+        android:background="@drawable/gradient"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/btn_Next"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:backgroundTint="@color/white"
+        android:text="Next"
+        android:textColor="@color/black"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:drawableEnd="@drawable/ic_arrow"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/owl"
+        android:id="@+id/img_owl"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="120dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_trivia"
+        android:text="Trivia"
+        android:textSize="40sp"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"/>
+</LinearLayout>
